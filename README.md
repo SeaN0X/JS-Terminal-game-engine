@@ -73,3 +73,13 @@ Engine.LoadMap(20, 10, "-", function() {
     gen_bot()
 });
 ```
+
+## Basic functionalities of the Engine ->
+
+```
+Engine.LoadMap(WIDTH, HEIGHT, CHAR, function() {}) // Loads the map and execute codes inside the function whe loaded.
+Engine.StartRender("Main",function(){ }) // Starts rendering and executes code inside the function every frame update.
+Engine.SetPixel(X, Y, CHAR); // Places pixel on the screen
+
+Engine.IsRendering // Variable to control rendering.
+```
